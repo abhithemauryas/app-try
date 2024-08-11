@@ -1,0 +1,171 @@
+
+.navbar{
+    width: 100%;
+    height: 168px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    position: relative;
+    top: 30px;
+    width: 36px;
+    height: 36px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex; 
+    position: relative;
+    top: 55px;
+    gap: 64px;
+    margin: auto;
+    margin-left: 30%;
+}
+
+.navLinks li {
+    display: inline;
+}
+
+.navLinks li a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.navIcons {
+    display: flex;
+    position: relative;
+    height: 24px;
+    top: 36px;
+    gap: 24px;
+}
+
+.navIcon-Lang {
+    display: flex;
+}
+
+.Logo-text {
+    position: relative;
+    top: 26px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.show-on-mobile {
+    display: none;
+  }
+
+@media screen and (max-width: 768px) {
+    .navbarContainer {
+        padding: 0 15px;
+    }
+   
+    .show-on-mobile{
+        display: inline-block;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .logo img {
+        margin-right: 20px; 
+      }
+
+    .navLinks {
+        top: 20px;
+        gap: 40px;
+        margin-left: 15px;
+    }
+
+    .navLinks li a {
+        font-size: 14px;
+    }
+
+    .navIcons {
+        top: 0;
+        gap: 15px;
+    }
+
+    .Logo-text {
+        font-size: 28px;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        height: auto;
+        width: 170%;
+    }
+    .show-on-mobile{
+        display: inline-block;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .logo img {
+       
+       width: 20px;
+      }
+
+    .navbarContainer {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 28px;
+        height: 28px;
+        top: 0;
+    }
+
+    .navLinks {
+        gap: 20px;
+        margin-left: 0;
+        width: 100%;
+        justify-content: space-around; 
+        top: 10px;
+    }
+
+    .navLinks li {
+        flex: 1; 
+        text-align: center;
+    }
+
+    .navLinks li a {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .navIcons {
+        gap: 12px;
+        top: 0;
+        justify-content: flex-end; 
+    }
+
+    .Logo-text {
+        font-size: 24px;
+        top: 0;
+    }
+}

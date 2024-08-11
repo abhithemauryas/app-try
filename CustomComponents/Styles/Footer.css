@@ -1,0 +1,404 @@
+/* General Footer Styles */
+.Footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+.Footer-Content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+.insta,
+.linkdin {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#column-first {
+    width: 70%;
+}
+
+#column-two {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.Column {
+    margin: 20px;
+    min-width: 200px;
+}
+
+.Column h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.Column p {
+    display: flex;
+}
+
+h3 {
+    font-size: 24.71px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: left;
+}
+
+h4 {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+li {
+    margin: 5px 0;
+    margin-top: 8px;
+}
+
+.Form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.transtion {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.EmailInput {
+    width: 384px;
+    height: 47px;
+    padding: 14px 24px;
+}
+
+.SubscribeButton {
+    width: 184px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1.14px solid #FFFFFF;
+    margin-left: 15px;
+}
+
+.SocialIcons img,
+.PaymentIcons img {
+    width: 56px;
+    height: 35px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.SocialIcons,
+.PaymentIcons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.border {
+    border-top: 1px solid #FFFFFF;
+}
+
+.foorte-colum-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+.Copyright {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 100%;
+    /* Ensure full width */
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
+.payment-accept {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* Responsive Design for Screens with Max-Width: 768px */
+@media (max-width: 768px) {
+    .Container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .Footer-Content {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    #column-first,
+    #column-two {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .Form {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .EmailInput {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .SubscribeButton {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .SocialIcons,
+    .PaymentIcons {
+        justify-content: space-between;
+    }
+
+    .foorte-colum-two {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .Copyright {
+        margin-top: 20px;
+        padding: 0 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .column-other {
+        width: 100%;
+        gap: 5px;
+
+    }
+
+    .payment-again {
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payment-again img {
+        width: 80px;
+        height: 50px;
+        border: 1px solid red;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .payment-accept {
+        text-align: center;
+    }
+
+    .mettā-muse-mobile {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+
+    }
+
+    .Column {
+        border-bottom: 1px solid #fff;
+
+
+        width: 100%;
+    }
+
+    .transtion {
+        display: none !important;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+/* Responsive Design for Screens with Max-Width: 480px */
+@media (max-width: 480px) {
+    .Container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+
+
+
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .show-on-mobile {
+        font-size: 20px;
+    }
+
+    .Footer-Content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+
+    }
+
+    #column-first,
+    #column-two {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .Form {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .EmailInput {
+        width: 330px;
+        height: 37px;
+        padding: 35px 15px;
+    }
+
+    .SubscribeButton {
+        width: 330px;
+        height: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        display: block;
+        text-align: center;
+        border-radius: 5px;
+        border: 1.14px solid #7e7a7a;
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    .EmailInput {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .SocialIcons,
+    .PaymentIcons {
+        justify-content: center;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .foorte-colum-two {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .Copyright {
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .payment-accept {
+        text-align: center;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .Footer {
+        width: 180%;
+    }
+
+
+    .mettā-muse-mobile {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+
+    }
+
+    .Column {
+        border-bottom: 1px solid #fff;
+        width: 100%;
+    }
+
+    .transtion {
+        display: none !important;
+
+    }
+}
